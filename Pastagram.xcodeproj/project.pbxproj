@@ -15,6 +15,7 @@
 		937956E52542429C008FCCB4 /* PastagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937956E42542429C008FCCB4 /* PastagramTests.swift */; };
 		937956F02542429C008FCCB4 /* PastagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937956EF2542429C008FCCB4 /* PastagramUITests.swift */; };
 		9379571F254249ED008FCCB4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9379571E254249ED008FCCB4 /* LoginViewController.swift */; };
+		9379572425424A41008FCCB4 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9379572325424A41008FCCB4 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		937956EF2542429C008FCCB4 /* PastagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastagramUITests.swift; sourceTree = "<group>"; };
 		937956F12542429D008FCCB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9379571E254249ED008FCCB4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9379572325424A41008FCCB4 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				937956D82542429C008FCCB4 /* LaunchScreen.storyboard */,
 				937956DB2542429C008FCCB4 /* Info.plist */,
 				9379571E254249ED008FCCB4 /* LoginViewController.swift */,
+				9379572325424A41008FCCB4 /* FeedViewController.swift */,
 			);
 			path = Pastagram;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				9379571F254249ED008FCCB4 /* LoginViewController.swift in Sources */,
 				937956CE2542429B008FCCB4 /* AppDelegate.swift in Sources */,
+				9379572425424A41008FCCB4 /* FeedViewController.swift in Sources */,
 				937956D02542429B008FCCB4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
