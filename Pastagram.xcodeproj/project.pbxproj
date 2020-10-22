@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		937956CE2542429B008FCCB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937956CD2542429B008FCCB4 /* AppDelegate.swift */; };
 		937956D02542429B008FCCB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937956CF2542429B008FCCB4 /* SceneDelegate.swift */; };
-		937956D22542429B008FCCB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937956D12542429B008FCCB4 /* ViewController.swift */; };
 		937956D52542429B008FCCB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937956D32542429B008FCCB4 /* Main.storyboard */; };
 		937956D72542429C008FCCB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937956D62542429C008FCCB4 /* Assets.xcassets */; };
 		937956DA2542429C008FCCB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937956D82542429C008FCCB4 /* LaunchScreen.storyboard */; };
 		937956E52542429C008FCCB4 /* PastagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937956E42542429C008FCCB4 /* PastagramTests.swift */; };
 		937956F02542429C008FCCB4 /* PastagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937956EF2542429C008FCCB4 /* PastagramUITests.swift */; };
+		9379571F254249ED008FCCB4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9379571E254249ED008FCCB4 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		937956CA2542429B008FCCB4 /* Pastagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pastagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		937956CD2542429B008FCCB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		937956CF2542429B008FCCB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		937956D12542429B008FCCB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		937956D42542429B008FCCB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		937956D62542429C008FCCB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		937956D92542429C008FCCB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		937956EB2542429C008FCCB4 /* PastagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PastagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		937956EF2542429C008FCCB4 /* PastagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastagramUITests.swift; sourceTree = "<group>"; };
 		937956F12542429D008FCCB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9379571E254249ED008FCCB4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,11 @@
 			children = (
 				937956CD2542429B008FCCB4 /* AppDelegate.swift */,
 				937956CF2542429B008FCCB4 /* SceneDelegate.swift */,
-				937956D12542429B008FCCB4 /* ViewController.swift */,
 				937956D32542429B008FCCB4 /* Main.storyboard */,
 				937956D62542429C008FCCB4 /* Assets.xcassets */,
 				937956D82542429C008FCCB4 /* LaunchScreen.storyboard */,
 				937956DB2542429C008FCCB4 /* Info.plist */,
+				9379571E254249ED008FCCB4 /* LoginViewController.swift */,
 			);
 			path = Pastagram;
 			sourceTree = "<group>";
@@ -258,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				937956D22542429B008FCCB4 /* ViewController.swift in Sources */,
+				9379571F254249ED008FCCB4 /* LoginViewController.swift in Sources */,
 				937956CE2542429B008FCCB4 /* AppDelegate.swift in Sources */,
 				937956D02542429B008FCCB4 /* SceneDelegate.swift in Sources */,
 			);
