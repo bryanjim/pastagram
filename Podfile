@@ -16,5 +16,6 @@ target 'Pastagram' do
     # Pods for testing
   end
   pod 'Parse'
+  pod 'AlamofireImage'
 
 end

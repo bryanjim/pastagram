@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import AlamoFire
+import AlamofireImage
 
 class CameraViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
